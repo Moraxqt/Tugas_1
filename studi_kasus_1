@@ -1,4 +1,12 @@
 const nama = "budi";
 const umur = 20;
-const hargaBarang = [12000, 15000, 8000, 5000];
+const hargaBarang = [15000, 12000, 8000, 5000]
+const nominal = 25000; 
+const BATAS_DISKON = 30000; // 30rb
+
+if (nominal >= BATAS_DISKON) {
+  console.log(`${nama} dapat diskon karena nominal Rp${nominal.toLocaleString('id-ID')}`);
+} else {
+  console.log(`${nama} tidak dapat diskon karena nominal Rp${nominal.toLocaleString('id-ID')}`);
+}
 
