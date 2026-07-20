@@ -5,7 +5,6 @@ let jumlahTidakLulus = 0;
 
 for (let i = 0; i < nilai.length; i++) { 
   let status = "";
-
   if (nilai[i] >= BATAS_LULUS) {
     status = "Lulus";
     jumlahLulus++;

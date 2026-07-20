@@ -4,7 +4,6 @@ let stokTersedia = 0;
 
 for (let i = 0; i < stok.length; i++) {
   let status = "";
-
   if (stok[i] === 0) {
     status = "Stok Habis";
     stokHabis++;

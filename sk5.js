@@ -4,7 +4,6 @@ let totalTidakHadir = 0;
 
 for (let i = 0; i < hadir.length; i++) {
   let status = "";
-
   if (hadir[i] === true) {
     status = "Hadir";
     totalHadir++;
