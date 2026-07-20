@@ -1,12 +1,14 @@
-const nama = "budi";
+const nama = "Budi";
 const umur = 20;
-const hargaBarang = [15000, 12000, 8000, 5000]
-const nominal = 25000; 
-const BATAS_DISKON = 30000; // 30rb
+const hargaBarang = [12000, 15000, 8000, 5000];
 
-if (nominal >= BATAS_DISKON) {
-  console.log(`${nama} dapat diskon karena nominal Rp${nominal.toLocaleString('id-ID')}`);
-} else {
-  console.log(`${nama} tidak dapat diskon karena nominal Rp${nominal.toLocaleString('id-ID')}`);
+let totalBelanja = 0;
+for (let i = 0; i < hargaBarang.length; i++) {
+  totalBelanja += hargaBarang[i];
 }
 
+if (totalBelanja > 30000) {
+  console.log("Selamat! Anda mendapatkan diskon.");
+} else {
+  console.log("Total belanja belum mencapai batas diskon."); 
+}
