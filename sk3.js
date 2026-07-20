@@ -10,4 +10,4 @@ for (let i = 0; i < hero.length; i++) {
   }
 
   console.log(`${hero[i]} -> ${status}`);
-} 
+}
