@@ -12,4 +12,4 @@ for (let i = 0; i < skor.length; i++) {
         status = "Warrior";
     }
     console.log(`Player ${i + 1} : ${skor[i]} -> ${status}`);
-} 
+}
