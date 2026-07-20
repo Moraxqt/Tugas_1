@@ -1,2 +1,4 @@
 const nama = "budi";
-const
+const umur = 20;
+const hargaBarang = [12000, 15000, 8000, 5000];
+
