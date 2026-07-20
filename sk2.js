@@ -4,15 +4,15 @@ let jumlahLulus = 0;
 let jumlahTidakLulus = 0;
 
 for (let i = 0; i < nilai.length; i++) { 
-  let status = "";
-  if (nilai[i] >= BATAS_LULUS) {
-    status = "Lulus";
-    jumlahLulus++;
-  } else {
-    status = "Tidak Lulus";
-    jumlahTidakLulus++;
-  }
-  console.log(`Siswa ke-${i + 1} : ${nilai[i]} -> ${status}`);
+    let status = "";
+    if (nilai[i] >= BATAS_LULUS) {
+        status = "Lulus";
+        jumlahLulus++;
+    } else {
+        status = "Tidak Lulus";
+        jumlahTidakLulus++;
+    }
+    console.log(`Siswa ke-${i + 1} : ${nilai[i]} -> ${status}`);
 }
 
 console.log(""); 
