@@ -17,6 +17,8 @@ if (totalBelanja > 30000) {
   status = "Tidak Mendapat Diskon";
 }
 
-console.log(""); 
+console.log("");
 
-console.log(`Nama : ${nama}`, `Umur : ${umur}`, `Total Belanja : ${totalBelanja}`, `Status : ${status}`);
+const FinalResult = `Nama : ${nama}\nUmur : ${umur}\nTotal Belanja : ${totalBelanja}\nStatus : ${status}`;
+
+console.log(FinalResult);
