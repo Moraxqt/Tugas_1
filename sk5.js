@@ -3,15 +3,15 @@ let totalHadir = 0;
 let totalTidakHadir = 0;
 
 for (let i = 0; i < hadir.length; i++) {
-  let status = "";
-  if (hadir[i] === true) {
-    status = "Hadir";
-    totalHadir++;
-  } else {
-    status = "Tidak Hadir";
-    totalTidakHadir++;
-  }
-  console.log(`Siswa ke-${i + 1} : ${status}`);
+    let status = "";
+    if (hadir[i] === true) {
+        status = "Hadir";
+        totalHadir++;
+    } else {
+        status = "Tidak Hadir";
+        totalTidakHadir++;
+    }
+    console.log(`Siswa ke-${i + 1} : ${status}`);
 }
 
 console.log(""); 
