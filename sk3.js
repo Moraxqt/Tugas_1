@@ -8,6 +8,5 @@ for (let i = 0; i < hero.length; i++) {
   } else {
     status = "Hero Biasa";
   }
-
   console.log(`${hero[i]} -> ${status}`);
 }

@@ -1,6 +1,5 @@
 const nilai = [90, 75, 60, 45, 88];
 const BATAS_LULUS = 75;
-
 let jumlahLulus = 0;
 let jumlahTidakLulus = 0;
 

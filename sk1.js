@@ -20,5 +20,4 @@ if (totalBelanja > 30000) {
 console.log("");
 
 const FinalResult = `Nama : ${nama}\nUmur : ${umur}\nTotal Belanja : ${totalBelanja}\nStatus : ${status}`;
-
 console.log(FinalResult);

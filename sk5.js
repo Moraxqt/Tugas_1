@@ -1,5 +1,4 @@
 const hadir = [true,false,true,true,false,true];
-
 let totalHadir = 0;
 let totalTidakHadir = 0;
 
@@ -13,7 +12,6 @@ for (let i = 0; i < hadir.length; i++) {
     status = "Tidak Hadir";
     totalTidakHadir++;
   }
-
   console.log(`Siswa ke-${i + 1} : ${status}`);
 }
 
